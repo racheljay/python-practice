@@ -20,14 +20,14 @@ def get_valid_word(words):
 def hangman():
     word = get_valid_word(words)
     # letters in the word to keep track of what's been guessed
-    word_letters = set(word)
+    word_letters = set(word) # saves the word chosen by computer as a set of letters
     alphabet = set(string.ascii_uppercase)
     used_letters = set()  # starts empty to store what the user has guessed
 
     lives = 6
 
     # getting user input
-    while len(word_letters) > 0 and lives > 0:
+    while len(word_letters) > 0 and lives > 0: #while we haven't won or died
         # letters used
         # ' '.join(['a', 'b', 'cd']) --> 'a b cd'
         print('You have', lives, 'lives left and you have used these letters: ', ' '.join(used_letters))
@@ -37,10 +37,10 @@ def hangman():
         print('Current word: ', ' '.join(word_list))
         
         user_letter = input('Guess a letter ').upper()
-        if user_letter in alphabet - used_letters:
-            used_letters.add(user_letter)
-            if user_letter in word_letters:
-                word_letters.remove(user_letter)
+        if user_letter in alphabet - used_letters: #if we haven't used this word yet
+            used_letters.add(user_letter) #add to used letters set
+            if user_letter in word_letters: #if this letter is in the correct word
+                word_letters.remove(user_letter) #take that letter away from the correct word
 
             else:
                 lives = lives - 1 #takes away a life if wrong guess
