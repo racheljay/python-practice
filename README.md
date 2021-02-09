@@ -23,3 +23,10 @@
     - sets store multiple items in a single variable
     - unordered and un-indexed
  
+ ## Tic-Tac-Toe
+ - Classes
+ - the __init__() function
+    - works like a constructor in js
+    - self parameter: references the current instance of the class and is used to access variables belonging to the class (kind of like this in js)
+        - this doesn't have to be called self, but it will always be the first parameter
+- static method
