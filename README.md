@@ -1,5 +1,7 @@
 # Python Practice
 
+Following a course by Kylie Ying [https://youtu.be/8ext9G7xspg]
+
 ## Madlibs: 
 - declare variables
 - input information
@@ -40,3 +42,5 @@
     - Raised when an operation or function receives an argument that has the right type but an inappropriate value, and the situation is not described by a more precise exception such as IndexError
 - __name__ == __main__
     - [https://www.freecodecamp.org/news/if-name-main-python-example/]
+- time module
+    - sleep: suspends execution for a given number of seconds
