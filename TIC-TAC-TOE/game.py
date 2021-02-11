@@ -112,9 +112,12 @@ def play(game, x_player, o_player, print_game=True):
             #     letter = 'O'
             # else:
             #     letter = 'X'
+        
+        # tiny break to make things easier to read
+        time.sleep(0.8)
 
-        if print_game:
-            print("It's a tie!")
+    if print_game:
+        print("It's a tie!")
 
 if __name__ == '__main__':
     x_player = HumanPlayer('X')
