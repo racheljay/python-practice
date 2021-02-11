@@ -38,3 +38,5 @@
     - A way to set up error feedback if there is an issue or if a condition is not met
 - ValueError
     - Raised when an operation or function receives an argument that has the right type but an inappropriate value, and the situation is not described by a more precise exception such as IndexError
+- __name__ == __main__
+    - [https://www.freecodecamp.org/news/if-name-main-python-example/]
