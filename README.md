@@ -1,5 +1,7 @@
 # Python Practice
 
+Following a course by Kylie Ying [https://youtu.be/8ext9G7xspg]
+
 ## Madlibs: 
 - declare variables
 - input information
