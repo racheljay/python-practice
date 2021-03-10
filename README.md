@@ -44,3 +44,4 @@ Following a course by Kylie Ying [https://youtu.be/8ext9G7xspg]
     - [https://www.freecodecamp.org/news/if-name-main-python-example/]
 - time module
     - sleep: suspends execution for a given number of seconds
+- TODO project not yet complete
