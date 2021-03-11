@@ -45,3 +45,8 @@ Following a course by Kylie Ying [https://youtu.be/8ext9G7xspg]
 - time module
     - sleep: suspends execution for a given number of seconds
 - TODO project not yet complete
+
+## Binary Search
+- Shows the difference between naive search and binary search
+    - Naive search searches an entire list starting from the beginning. This can take time
+    - Binary search searches by splitting a list in half and scanning multiple parts recursively 
