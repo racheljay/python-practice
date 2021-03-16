@@ -45,8 +45,8 @@ class Board:
         # MAKE SURE NOT TO GO OUT OF BOUNDS
 
         num_neighboring_bombs = 0
-        for r in range(max(0, row-1), min(self.dim_size-1, (row+1) + 1):
-            for c in range(col-1, (col+1)+1):
+        for r in range(max(0, row-1), min(self.dim_size-1, row+1) + 1):
+            for c in range(max(0, col-1), min(self.dim_size-1, col+1)+1):
                 if r == row and c == col:
                     #our original location, don't check
                     continue
